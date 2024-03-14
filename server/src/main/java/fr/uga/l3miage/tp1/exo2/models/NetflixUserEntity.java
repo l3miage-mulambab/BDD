@@ -19,6 +19,6 @@ public class NetflixUserEntity {
     private Sex sex;
     private LocalDate birthDate;
     @OneToOne
-    private NetflixAccountEntity netflixUser;
+    private NetflixAccountEntity netflixAccount;
 }
 

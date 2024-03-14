@@ -14,8 +14,8 @@ public class NetflixAccountEntity {
     private Integer id;
     private int nbDevices;
     private TypeAccount typeAccount;
-    @OneToOne(mappedBy = "netflixUser")
-    private NetflixUserEntity netflixAccount;
+    @OneToOne(mappedBy = "netflixAccount")
+    private NetflixUserEntity netflixUser;
 
 
 
